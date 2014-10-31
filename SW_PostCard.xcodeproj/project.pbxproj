@@ -13,6 +13,8 @@
 		876075E11A0274FC0098BD0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876075E01A0274FC0098BD0D /* Images.xcassets */; };
 		876075E41A0274FC0098BD0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876075E21A0274FC0098BD0D /* LaunchScreen.xib */; };
 		876075F01A0274FC0098BD0D /* SW_PostCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876075EF1A0274FC0098BD0D /* SW_PostCardTests.swift */; };
+		876075FC1A027EDE0098BD0D /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 876075FB1A027EDE0098BD0D /* 22.jpg */; };
+		876075FE1A0349170098BD0D /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 876075FD1A0349170098BD0D /* 5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		876075E91A0274FC0098BD0D /* SW_PostCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SW_PostCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		876075EE1A0274FC0098BD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876075EF1A0274FC0098BD0D /* SW_PostCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SW_PostCardTests.swift; sourceTree = "<group>"; };
+		876075FB1A027EDE0098BD0D /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		876075FD1A0349170098BD0D /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		876075D71A0274FC0098BD0D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				876075FD1A0349170098BD0D /* 5.jpg */,
+				876075FB1A027EDE0098BD0D /* 22.jpg */,
 				876075D81A0274FC0098BD0D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				876075DF1A0274FC0098BD0D /* Main.storyboard in Resources */,
+				876075FE1A0349170098BD0D /* 5.jpg in Resources */,
+				876075FC1A027EDE0098BD0D /* 22.jpg in Resources */,
 				876075E41A0274FC0098BD0D /* LaunchScreen.xib in Resources */,
 				876075E11A0274FC0098BD0D /* Images.xcassets in Resources */,
 			);
@@ -407,6 +415,7 @@
 				876075F51A0274FC0098BD0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		876075F61A0274FC0098BD0D /* Build configuration list for PBXNativeTarget "SW_PostCardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				876075F81A0274FC0098BD0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
